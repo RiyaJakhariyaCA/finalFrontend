@@ -4,7 +4,7 @@ import '../App.css'; // Import the CSS file for styling
 import { useNavigate, useParams } from 'react-router-dom';
 
 
-function Createbook() {
+function CreateBook() {
     const [bookId, setBookId] = useState('');
     const [bookTitle, setBookTitle] = useState('');
     const [bookAuthor, setBookAuthor] = useState('');
@@ -81,4 +81,4 @@ function Createbook() {
     );
 }
 
-export default Createbook;
+export default CreateBook;
